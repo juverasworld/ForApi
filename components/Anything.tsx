@@ -1,5 +1,5 @@
 import Image from 'next/image'
-export default function () {
+export default function Anything() {
     return (
         <section>
 	<div className="our-causes-area pt-115">
