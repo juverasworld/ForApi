@@ -1,7 +1,7 @@
 import Image from "next/image"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Anotherhero from "../components/Anotherhero";
+// import Anotherhero from "../components/Anotherhero";
 import Footer from "../components/Footer";
 import Header2 from "../components/Header2";
 
