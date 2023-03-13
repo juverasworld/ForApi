@@ -20,7 +20,7 @@ export default function SecondHome({
 }) {
     return ( <>
         <Header2/>
-        <Anotherhero/>
+        {/* <Anotherhero/> */}
         <Footer/>
     
         </> );
