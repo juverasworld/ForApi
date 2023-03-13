@@ -2,7 +2,8 @@
  import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
- export default function singleBlog(){
+
+ export default function SingleBlog(){
     return(
         <>
         <section>
