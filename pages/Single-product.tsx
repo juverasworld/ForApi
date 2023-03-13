@@ -83,7 +83,7 @@ export default function singleProduct() {
                             </div>
                             <div className="col-lg-7 col-12">
                                 <div className="single-product-content">
-                                    <h1 className="single-product-name">Adams Men's Dunbar</h1>
+                                    <h1 className="single-product-name">Adams Men $aptos s Dunbar</h1>
                                     <div className="single-product-reviews">
                                         <i className="fa fa-star"></i>
                                         <i className="fa fa-star"></i>
@@ -172,7 +172,7 @@ export default function singleProduct() {
                                     <div className="tab-content product-review-content-tab mt-30" id="myTabContent-4">
                                         <div className="tab-pane fade show active" id="description">
                                             <div className="single-product-description">
-                                                <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which has since evolved into a full ready-to-wear collection in which every item is a vital part of a woman's wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
+                                                <p>Fashion has been creating well-designed collections since 2010. The brand offers feminine designs delivering stylish separates and statement dresses which has since evolved into a full ready-to-wear collection in which every item is a vital part of a woman $aptos s wardrobe. The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
                                             </div>
                                         </div>
                                         <div className="tab-pane fade" id="product-details">
