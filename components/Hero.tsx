@@ -33,7 +33,7 @@ export default function Hero() {
 							<div className="row">
 								<div className="col-12">
 									<div className="hero-slider-content">
-										<h1>Let's teach them letter, the world will be better</h1>
+										<h1>Let s teach them letter, the world will be better</h1>
 										<div className="slider-btn">
 											<a className="default-btn" href="#">READ MORE</a>
 										</div>
@@ -145,7 +145,7 @@ export default function Hero() {
 					/>
 				</div>
 			</div>
-			
+
 			<div className="donate-product-area pt-60">
 				<div className="container coustom-container">
 					<div className="row coustom-row-two">
@@ -520,8 +520,9 @@ export default function Hero() {
 						</div>
 					</div>
 				</div>
+
 			</div>
-		</section>
+		</section >
 
 
 	)
