@@ -43,7 +43,7 @@ export default function event(){
 		                    </div>
 		                    <div className="event-description">
 		                        <h3>Medical Camp for Poor Children</h3>
-		                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using $aptos Content here, content here $aptos, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for  $aptos lorem ipsum' will uncover many web sites still in their infancy.</p>
+		                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using $aptos Content here, content here $aptos, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for  $aptos lorem ipsum $aptos will uncover many web sites still in their infancy.</p>
                                 <div className="meta-block info">
                                     <div className="block-content">
                                         <div className="info-item">
