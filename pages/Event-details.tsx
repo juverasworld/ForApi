@@ -34,11 +34,11 @@ export default function event(){
 		                    <div className="event-location">
 		                        <div className="event-vanue">
 		                            <h4>vanue:</h4>
-		                            <Link href="#"><i className="fa fa-flag"></i> Sec-10, Uttara, Dhaka-1230</Link>
+		                            <i className="fa fa-flag"></i> Sec-10, Uttara, Dhaka-1230
 		                        </div>
 		                        <div className="event-time">
 		                            <h4>date:</h4>
-		                            <Link href="#"><i className="fa fa-calendar"></i>  20 SEP, 2018</Link>
+		                            <i className="fa fa-calendar"></i>  20 SEP, 2018
 		                        </div>
 		                    </div>
 		                    <div className="event-description">
@@ -192,14 +192,14 @@ export default function event(){
                            <div className="single-sidebar-widget">
                                 <h4 className="title">Categories</h4>
                                 <ul className="course-categoris">
-                                    <li><Link href="#">Political Science<span>10</span></Link></li>
-                                    <li><Link href="#">Micro Biology<span>15</span></Link></li>
-                                    <li><Link href="#">Computer Science<span>05</span></Link></li>
-                                    <li><Link href="#">Business Leaders Guide<span>19</span></Link></li>
-                                    <li><Link href="#">Become a Product Manage<span>21</span></Link></li>
-                                    <li><Link href="#">Business Economics<span>14</span></Link></li>
-                                    <li><Link href="#">Language Education<span>13</span></Link></li>
-                                    <li><Link href="#">Social Media Management<span>18</span></Link></li>
+                                    <li>Political Science<span>10</span></li>
+                                    <li>Micro Biology<span>15</span></li>
+                                    <li>Computer Science<span>05</span></li>
+                                    <li>Business Leaders Guide<span>19</span></li>
+                                    <li>Become a Product Manage<span>21</span></li>
+                                    <li>Business Economics<span>14</span></li>
+                                    <li>Language Education<span>13</span></li>
+                                    <li>Social Media Management<span>18</span></li>
                                 </ul>
                             </div>
                             <div className="single-sidebar-widget">
@@ -238,18 +238,18 @@ export default function event(){
                             </div>
                             <div className="single-sidebar-widget">
                                 <div className="widget-banner img-full">
-                                    <Link href="#"><Image src="/img/banner/banner2.png" alt="" width={200} height={100}/></Link>
+                                    <Image src="/img/banner/banner2.png" alt="" width={200} height={100}/>
                                 </div>
                             </div>
                             <div className="single-sidebar-widget">
                                 <h4 className="title">Tags</h4>
                                 <ul className="tags">
-                                    <li><Link href="#">Photoshop</Link></li>
-                                    <li><Link href="#">Design</Link></li>
-                                    <li><Link href="#">Tutorial</Link></li>
-                                    <li><Link href="#">Courses</Link></li>
-                                    <li><Link href="#">Premium</Link></li>
-                                    <li><Link href="#">Designtuto</Link></li>
+                                    <li><Link href="/">Photoshop</Link></li>
+                                    <li><Link href="/">Design</Link></li>
+                                    <li><Link href="/">Tutorial</Link></li>
+                                    <li><Link href="/">Courses</Link></li>
+                                    <li><Link href="/">Premium</Link></li>
+                                    <li><Link href="/">Designtuto</Link></li>
                                 </ul>
                             </div>
                         </div>

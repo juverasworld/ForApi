@@ -31,31 +31,31 @@ if ($(this).scrollTop() >50){
 /*-------------
     Hero Slider Active
 ------------------------------*/
-$('.hero-slider').owlCarousel({
-    smartSpeed: 1000,
-    nav: true,
-    loop: true,
-    animateOut: 'fadeOut',
-    animateIn: 'fadeIn',
-    autoplay: false,
-    autoHeight:true,
-    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-    responsive: {
-        0: {
-            items: 1,
-            nav: false,
-            dots: true
-        },
-        768: {
-            items: 1,
-            nav: false,
-            dots: true
-        },
-        991: {
-            items: 1,
-        }
-    }
-}) 
+// $('.hero-slider').owlCarousel({
+//     smartSpeed: 1000,
+//     nav: true,
+//     loop: true,
+//     animateOut: 'fadeOut',
+//     animateIn: 'fadeIn',
+//     autoplay: false,
+//     autoHeight:true,
+//     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+//     responsive: {
+//         0: {
+//             items: 1,
+//             nav: false,
+//             dots: true
+//         },
+//         768: {
+//             items: 1,
+//             nav: false,
+//             dots: true
+//         },
+//         991: {
+//             items: 1,
+//         }
+//     }
+// }) 
 
 /*--------
     Event Slider Active
@@ -123,31 +123,31 @@ var eventSlider = $('.event-slider');
 /*-------------
     Project Slider Active
 ------------------------------*/
-$('.project-active').owlCarousel({
-    loop:true,
-    margin:0,
-    nav:false,
-    autoplay: true,
-    autoplayTimeout: 10000,
-    items:5,
-    dots: false,
-    lazyLoad: true,
-    responsive: {
-        0: {
-            items: 2,
-            nav: false,
-            dots: true
-        },
-        768: {
-            items: 4,
-            nav: false,
-            dots: true
-        },
-        991: {
-            items: 5,
-        }
-    }
-}); 
+// $('.project-active').owlCarousel({
+//     loop:true,
+//     margin:0,
+//     nav:false,
+//     autoplay: true,
+//     autoplayTimeout: 10000,
+//     items:5,
+//     dots: false,
+//     lazyLoad: true,
+//     responsive: {
+//         0: {
+//             items: 2,
+//             nav: false,
+//             dots: true
+//         },
+//         768: {
+//             items: 4,
+//             nav: false,
+//             dots: true
+//         },
+//         991: {
+//             items: 5,
+//         }
+//     }
+// }); 
 
 /*-----------------------------
     Testimonial Slider Active
@@ -217,48 +217,48 @@ $('.project-active').owlCarousel({
 //     time: 5000
 // });
 /*=============  Gallery Mesonry Activation  ==============*/
-$('.masonry__wrap').imagesLoaded(function () {
+// $('.masonry__wrap').imagesLoaded(function () {
 
-    // filter items on button click
-    $('.gallery__menu').on('click', 'button', function () {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({
-          filter: filterValue
-        });
-    });
+//     // filter items on button click
+//     $('.gallery__menu').on('click', 'button', function () {
+//         var filterValue = $(this).attr('data-filter');
+//         $grid.isotope({
+//           filter: filterValue
+//         });
+//     });
 
     // change is-checked class on buttons
-    $('.gallery__menu button').on('click', function () {
-        $('.gallery__menu button').removeClass('is-checked');
-        $(this).addClass('is-checked');
-        var selector = $(this).attr('data-filter');
-        $containerpage.isotope({
-          filter: selector
-        });
-        return false;
-    });
+    // $('.gallery__menu button').on('click', function () {
+    //     $('.gallery__menu button').removeClass('is-checked');
+    //     $(this).addClass('is-checked');
+    //     var selector = $(this).attr('data-filter');
+    //     $containerpage.isotope({
+    //       filter: selector
+    //     });
+    //     return false;
+    // });
 
     // init Isotope
-    var $grid = $('.masonry__wrap').isotope({
-        itemSelector: '.gallery__item',
-        percentPosition: true,
-        transitionDuration: '0.7s',
-        layoutMode: 'fitRows',
-        masonry: {
-          // use outer width of grid-sizer for columnWidth
-          columnWidth: '.gallery__item',
-        }
-    });
-});
+//     var $grid = $('.masonry__wrap').isotope({
+//         itemSelector: '.gallery__item',
+//         percentPosition: true,
+//         transitionDuration: '0.7s',
+//         layoutMode: 'fitRows',
+//         masonry: {
+//           // use outer width of grid-sizer for columnWidth
+//           columnWidth: '.gallery__item',
+//         }
+//     });
+// });
 /*----------------------------------
     ScrollUp Active
 -----------------------------------*/
-$.scrollUp({
-    scrollText: '<i class="fa fa-angle-up"></i>',
-    easingType: 'linear',
-    scrollSpeed: 900,
-    animation: 'fade'
-});
+// $.scrollUp({
+//     scrollText: '<i class="fa fa-angle-up"></i>',
+//     easingType: 'linear',
+//     scrollSpeed: 900,
+//     animation: 'fade'
+// });
 /*----------------------------------
 	 Instafeed Active 
 ------------------------------------*/
@@ -327,18 +327,18 @@ if ($(".quick-donation-section").length) {
 //           ]
 // 	});
     
-$('.single-slide-menu a').on('click',function(e){
-      e.preventDefault();
+// $('.single-slide-menu a').on('click',function(e){
+//       e.preventDefault();
      
-      var $href = $(this).attr('href');
+//       var $href = $(this).attr('href');
      
-      $('.single-slide-menu a').removeClass('active');
-      $(this).addClass('active');
+//       $('.single-slide-menu a').removeClass('active');
+//       $(this).addClass('active');
      
-      $('.product-details-large .tab-pane').removeClass('active show');
-      $('.product-details-large '+ $href ).addClass('active show');
+//       $('.product-details-large .tab-pane').removeClass('active show');
+//       $('.product-details-large '+ $href ).addClass('active show');
      
-  })
+//   })
 /*------------------------------ 
 10. Cart Plus Minus Button
 ---------------------------------*/
@@ -361,36 +361,36 @@ $('.single-slide-menu a').on('click',function(e){
 /* --------------------------------------------------------
 	 Venobox Active
 * -------------------------------------------------------*/  
-  $('.venobox').venobox({
-        border: '10px',
-        titleattr: 'data-title',
-        numeratio: true,
-        infinigall: true
-    }); 
+//   $('.venobox').venobox({
+//         border: '10px',
+//         titleattr: 'data-title',
+//         numeratio: true,
+//         infinigall: true
+//     }); 
 /*---------------------------
     Nice Select
 ------------------------------- */	
-$('.nice-select').niceSelect(); 
-/*------------------------------ 
-    Toggle Function Active
----------------------------------*/   
-/*--- showlogin toggle function ----*/
-$('#showlogin').on('click', function() {
-    $('#checkout-login').slideToggle(900);
-});
+// $('.nice-select').niceSelect(); 
+// /*------------------------------ 
+//     Toggle Function Active
+// ---------------------------------*/   
+// /*--- showlogin toggle function ----*/
+// $('#showlogin').on('click', function() {
+//     $('#checkout-login').slideToggle(900);
+// });
 
 /*--- showlogin toggle function ----*/
-$('#showcoupon').on('click', function() {
-    $('#checkout_coupon').slideToggle(900);
-});
-/*--- showlogin toggle function ----*/
-$('#cbox').on('click', function() {
-    $('#cbox-info').slideToggle(900);
-});
+// $('#showcoupon').on('click', function() {
+//     $('#checkout_coupon').slideToggle(900);
+// });
+// /*--- showlogin toggle function ----*/
+// $('#cbox').on('click', function() {
+//     $('#cbox-info').slideToggle(900);
+// });
     
-/*--- showlogin toggle function ----*/
-$('#ship-box').on('click', function() {
-    $('#ship-box-info').slideToggle(1000);
-});
+// /*--- showlogin toggle function ----*/
+// $('#ship-box').on('click', function() {
+//     $('#ship-box-info').slideToggle(1000);
+// });
     
 })(jQuery);

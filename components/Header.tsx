@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Link from 'next/link'
+// import Hamburger from './Hamburger';
 
 
 export default function Header({
@@ -34,16 +35,16 @@ export default function Header({
                                     <ul className="mainMenu">
                                         <li className="active"><Link href="/">HOME</Link>
                                             {/* <!--Dropdown Menu Start--> */}
-                                            <ul>
-                                                <li><Link href="/">Home Page 1</Link></li>
-                                                <li><Link href="/SecondHome">Home Page 2</Link></li>
-                                            </ul>
+                                           
                                             {/* <!--Dropdown Menu End--> */}
                                         </li>
-                                        <li><Link href="/Causes">CAUSES</Link>
+                                        <li><Link href="/Causes">ABOUT</Link>
                                             {/* <!--Dropdown Menu Start--> */}
                                             <ul>
-                                                <li><Link href="/Single-causes">Causes Details</Link></li>
+                                                <li><Link href="/Single-causes">Our Team</Link></li>
+                                            </ul>
+                                            <ul>
+                                                <li><Link href="/Single-causes">Hubs</Link></li>
                                             </ul>
                                             {/* <!--Dropdown Menu End-->  */}
                                         </li>
@@ -106,7 +107,9 @@ export default function Header({
                     <div className="row">
                         <div className="col-12">
                             {/* <!--Mobile Menu Area Start--> */}
-                            <div className="mobile-menu d-lg-none d-xl-none"></div>
+                            <div className="mobile-menu d-lg-none d-xl-none">
+                                
+                            </div>
                             {/* <!--Mobile Menu Area End--> */}
                         </div>
                     </div>

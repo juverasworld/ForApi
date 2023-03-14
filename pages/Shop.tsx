@@ -407,12 +407,12 @@ export default function shop(){
                           <div className="single-sidebar-widget">
                                 <h4 className="title">Tags</h4>
                                 <ul className="tags">
-                                    <li><Link href="#">Photoshop</Link></li>
-                                    <li><Link href="#">Design</Link></li>
-                                    <li><Link href="#">Tutorial</Link></li>
-                                    <li><Link href="#">Courses</Link></li>
-                                    <li><Link href="#">Premium</Link></li>
-                                    <li><Link href="#">Designtuto</Link></li>
+                                    <li>PhotoshoLink</li>
+                                    <li>Design</li>
+                                    <li>Tutorial</li>
+                                    <li>Courses</li>
+                                    <li>Premium</li>
+                                    <li>Designtuto</li>
                                 </ul>
                             </div>
                         </div>

@@ -1,16 +1,25 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-
+import { useState } from 'react';
+// import Image from 'next/image';
 
 export default function Hero() {
 
+		const [index, setIndex] = useState(0);
+	  
+		const handleSelect = (selectedIndex, e) => {
+		  setIndex(selectedIndex);
+		};
+	  
 
 	return (
 
 		<section>
 			<div className="slider-area">
 				<div className="hero-slider owl-carousel">
+			
+
 					{/* <!--Single Slider Start--> */}
 					<div className="single-slider" style={{ backgroundImage: 'url(/img/slider/slide2-home-1.jpg)' }}>
 						<div className="container">

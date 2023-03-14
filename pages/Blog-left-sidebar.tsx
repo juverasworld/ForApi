@@ -66,14 +66,14 @@ export default function blogLeft() {
                                     <div className="single-sidebar-widget">
                                         <h4 className="title">Categories</h4>
                                         <ul className="course-categoris">
-                                            <li><Link href="#">Political Science<span>10</span></Link></li>
-                                            <li><Link href="#">Micro Biology<span>15</span></Link></li>
-                                            <li><Link href="#">Computer Science<span>05</span></Link></li>
-                                            <li><Link href="#">Business Leaders Guide<span>19</span></Link></li>
-                                            <li><Link href="#">Become a Product Manage<span>21</span></Link></li>
-                                            <li><Link href="#">Business Economics<span>14</span></Link></li>
-                                            <li><Link href="#">Language Education<span>13</span></Link></li>
-                                            <li><Link href="#">Social Media Management<span>18</span></Link></li>
+                                            <li>Political Science<span>10</span></li>
+                                            <li>Micro Biology<span>15</span></li>
+                                            <li>Computer Science<span>05</span></li>
+                                            <li>Business Leaders Guide<span>19</span></li>
+                                            <li>Become a Product Manage<span>21</span></li>
+                                            <li>Business Economics<span>14</span></li>
+                                            <li>Language Education<span>13</span></li>
+                                            <li>Social Media Management<span>18</span></li>
                                         </ul>
                                     </div>
                                     <div className="single-sidebar-widget">
@@ -112,18 +112,18 @@ export default function blogLeft() {
                                     </div>
                                     <div className="single-sidebar-widget">
                                         <div className="widget-banner img-full">
-                                            <Link href="#"><Image src="/img/banner/banner1.png" alt="" width={200} height={120} /></Link>
+                                            <Image src="/img/banner/banner1.png" alt="" width={200} height={120} />
                                         </div>
                                     </div>
                                     <div className="single-sidebar-widget">
                                         <h4 className="title">Tags</h4>
                                         <ul className="tags">
-                                            <li><Link href="#">Photoshop</Link></li>
-                                            <li><Link href="#">Design</Link></li>
-                                            <li><Link href="#">Tutorial</Link></li>
-                                            <li><Link href="#">Courses</Link></li>
-                                            <li><Link href="#">Premium</Link></li>
-                                            <li><Link href="#">Designtuto</Link></li>
+                                            <li>Photoshop</li>
+                                            <li>Design</li>
+                                            <li>Tutorial</li>
+                                            <li>Courses</li>
+                                            <li>Premium</li>
+                                            <li>Designtuto</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Oct, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Marathon compitition for fund rising</Link></h4>
@@ -156,7 +156,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>12 Nov, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Africa children need more food</Link></h4>
@@ -173,7 +173,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>15 Apr, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Africa children water and clothes</Link></h4>
@@ -190,7 +190,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Feb, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">How to use international network</Link></h4>
@@ -207,7 +207,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Oct, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Africa children run the runway</Link></h4>
@@ -224,7 +224,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>12 Nov, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Nearly 200 million children</Link></h4>
@@ -241,7 +241,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>15 Apr, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Africa children the world were abused</Link></h4>
@@ -258,7 +258,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Feb, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Marathon compitition for fund rising</Link></h4>
@@ -275,7 +275,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Oct, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Marathon compitition for fund rising</Link></h4>
@@ -292,7 +292,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>12 Nov, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">How to use international network</Link></h4>
@@ -309,7 +309,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>15 Apr, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Africa children the world were abused</Link></h4>
@@ -326,7 +326,7 @@ export default function blogLeft() {
                                             </div>
                                             <div className="blog-content">
                                                 <ul className="meta">
-                                                    <li>By <Link href="#">Jenifer</Link></li>
+                                                    <li>By Jenifer</li>
                                                     <li>25 Feb, 2018 </li>
                                                 </ul>
                                                 <h4 className="title"><Link href="/Single-blog">Marathon compitition for fund rising</Link></h4>
@@ -341,12 +341,12 @@ export default function blogLeft() {
                                         {/* {<!--Pagination Start--} */}
                                         <div className="product-pagination">
                                             <ul>
-                                                <li className="active"><Link href="#">1</Link></li>
-                                                <li><Link href="#">2</Link></li>
-                                                <li><Link href="#">3</Link></li>
-                                                <li><Link href="#">4</Link></li>
-                                                <li><Link href="#">5</Link></li>
-                                                <li><Link href="#"><i className="fa fa-angle-double-right"></i></Link></li>
+                                                <li className="active">1</li>
+                                                <li>2</li>
+                                                <li>3</li>
+                                                <li>4</li>
+                                                <li>5</li>
+                                                <li><i className="fa fa-angle-double-right"></i></li>
                                             </ul>
                                         </div>
                                         {/* {<!--Pagination End--} */}
