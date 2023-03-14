@@ -138,10 +138,10 @@ export default function SingleProduct() {
                                         <div className="single-product-share mt-20">
                                             <ul>
                                                 <li className="categories-title">Share :</li>
-                                                <li><Link href="#"><i className="fa fa-facebook"></i></Link></li>
-                                                <li><Link href="#"><i className="fa fa-twitter"></i></Link></li>
-                                                <li><Link href="#"><i className="fa fa-google-plus"></i></Link></li>
-                                                <li><Link href="#"><i className="fa fa-pinterest"></i></Link></li>
+                                                <li><i className="fa fa-facebook"></i></li>
+                                                <li><i className="fa fa-twitter"></i></li>
+                                                <li><i className="fa fa-google-plus"></i></li>
+                                                <li><i className="fa fa-pinterest"></i></li>
                                             </ul>
                                         </div>
                                         {/* <!--Single Product Share--> */}
@@ -179,9 +179,9 @@ export default function SingleProduct() {
                                         <div className="tab-pane fade" id="product-details">
                                             <div className="product-details">
                                                 <div className="product-manufacturer">
-                                                    <Link href="#">
+                                                    
                                                         <Image src="/img/logo/logo.jpg" alt="" width={200} height={100} />
-                                                    </Link>
+                                                    
                                                 </div>
                                                 <div className="product-reference">
                                                     <label className="label">Reference </label> <span className="demo-list">demo_13</span>
@@ -272,7 +272,7 @@ export default function SingleProduct() {
                                     <div className="product-img img-full">
                                         <Link href="/Single-product">
                                             <Image src="/img/product/product9.jpg" alt="" width={200} height={10} />
-                                            <Link href="#" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
+                                            <Link href="/" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
                                         </Link>
                                     </div>
                                     <div className="product-content">
@@ -295,7 +295,7 @@ export default function SingleProduct() {
                                     <div className="product-img img-full">
                                         <Link href="/Single-product">
                                             <Image src="/img/product/product10.jpg" alt="" width={200} height={10} />
-                                            <Link href="#" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
+                                            <Link href="/" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
                                         </Link>
                                     </div>
                                     <div className="product-content">
@@ -318,7 +318,7 @@ export default function SingleProduct() {
                                     <div className="product-img img-full">
                                         <Link href="/Single-product">
                                             <Image src="/img/product/product11.jpg" alt="" width={200} height={10} />
-                                            <Link href="#" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
+                                            <Link href="/" className="add-to-cart"><i className="fa fa-cart-plus"></i>add to cart</Link>
                                         </Link>
                                     </div>
                                     <div className="product-content">
