@@ -16,7 +16,62 @@ body {
 * {
   box-sizing: border-box;
 }
+.menu-bar .three {
+	width: 22px;
+	color:black;
 
+	transition: width ease-in .1s;
+}
+.menu-bar:hover .three {
+	width: 30px;
+}
+.menu-bar div:not(:last-of-type) {
+	margin-bottom: 5px;
+}
+
+.menu-bar.animate {
+	animation: animate-spin .1s ease 3 forwards;
+	width: 40px;
+	height: 40px;
+}
+.menu-bar.animate .three {
+	display: none;
+}
+
+.menu-bar.animate .one {
+	transform: rotate(-45deg) translate(0px, -50%);        
+	top: 50%;
+	position: absolute;
+	/* background-color: white; */
+}
+
+.menu-bar.animate .two {
+	transform: rotate(45deg) translate(-1px, calc(-50% + 1px));
+	top: 50%;
+	position: absolute;
+}
+
+@keyframes animate-spin {
+	from {
+		transform: rotate(0deg);
+	} to {
+		transform:  rotate(360deg);
+	}
+}
+
+.slide {
+	display: block	;
+	/* position: absolute; */
+	transform: translateY(-30px);
+	opacity: 0;
+	/* margin-left: 1.7vw; */
+	transition: opacity .7s ease-in-out, transform .7s ease-in-out;
+  }
+  
+  .animate {
+	opacity: 1;
+	transform: translateY(0);
+  }
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
